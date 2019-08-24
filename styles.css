@@ -47,3 +47,7 @@ footer#connect{
     display: flex;
   }
 }
+
+footer {
+  margin-top: 10px;
+}
