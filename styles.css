@@ -26,9 +26,38 @@
   text-decoration: none;
 }
 
-/* WIP */
-#intro {
-  background: red;
-  margin-right: 30%;
-  margin-left: 30%;
+/* Picture and Name section */
+.intro {
+  background-color: blue;
+  /* margin-right: 30%; */
+  /* margin-left: 30%; */
+}
+
+.pic-column {
+  float: left;
+  width: 40%;
+}
+
+.-column {
+  float: left;
+  width: 60%;
+}
+
+#picture {
+  display: block;
+  margin-left: 40%;
+  /* margin-right: 30%; */
+  width: 50%;
+  border-radius: 50%
+}
+
+#name {
+  background-color: red;
+  font-size: 500%;
+}
+
+#role {
+  background-color: blue;
+  font-weight: bold;
+  font-size: 300%;
 }
